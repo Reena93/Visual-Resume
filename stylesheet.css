@@ -1,0 +1,108 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header h1, header p
+{
+  margin: 0px;
+}
+h1
+{
+  font-family: 'Caveat', cursive;
+  font-size: 80px;
+}
+p i
+{
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+.col-sml
+{
+  width: 30%;
+  float: left;
+  min-height: 400px;
+  margin-right: 50px;
+}
+.col-lrg
+{
+  max-width: 70%;
+  min-height: 400px;
+}
+h3
+{
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+.work-history strong,.work-history p,.work-history  i{
+  margin: 0px;
+}
+header,footer
+{
+  background-color: #2B2D42;
+  color: #8D99AE;
+}
+.profileImg
+{
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+
+}
+.content-wrap
+{
+  max-width:950px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+.Professional
+{
+    background-color:#8D99AE;
+}
+.skills{
+  background-color: #EDF2F4;
+}
+.work-history
+{
+  background-color:#8D99AE;
+  overflow: auto;
+}
+.Projects-Undertaken
+{
+    background-color: #EDF2F4;
+}
+.education
+{
+  background-color:#8D99AE;
+}
+.education p{
+  margin:0px;
+}
+
+.Personal-Information
+{
+    background-color: #EDF2F4;
+}
+
+.Projects-Undertaken a{
+  color:red;
+}
+footer a{
+  color: lightblue;
+  margin: 10px;
+}
+a:hover
+{
+  text-decoration: none;
+}
+header h2
+{
+  color: #EDF2F4;
+}
+footer{
+  text-align: center;
+}
