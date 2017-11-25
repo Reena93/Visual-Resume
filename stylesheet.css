@@ -1,7 +1,31 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
-
+/************Navbar styles******************/
+.navbar
+{
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  top:0;
+  width:100%;
+}
+.navbar a{
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 1000px;
+  color: rgb(30,90,80);
+}
+a:hover{
+  color: rgb(30,40,60);
+}
+/***********************************/
+/********Header styles**************/
+header{
+  padding-top: 30px;
+}
 header h1, header p
 {
   margin: 0px;
@@ -16,6 +40,20 @@ p i
   font-family: 'Caveat', cursive;
   font-size: 25px;
 }
+
+/***********************************/
+header,footer
+{
+  background-color: #2B2D42;
+  color: #8D99AE;
+}
+h3
+{
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top:0px;
+}
 .col-sml
 {
   width: 30%;
@@ -28,35 +66,28 @@ p i
   max-width: 70%;
   min-height: 400px;
 }
-h3
-{
-  font-family: 'Caveat', cursive;
-  font-size: 40px;
-  margin-bottom: 0px;
-  margin-top:0px;
-}
+
 .work-history strong,.work-history p,.work-history  i{
   margin: 0px;
 }
-header,footer
-{
-  background-color: #2B2D42;
-  color: #8D99AE;
-}
+
 .profileImg
 {
+
   width: 250px;
   height: 200px;
   border-radius: 50%;
   float: left;
   margin-right: 20px;
+  padding-top:10px;
 
 }
 .content-wrap
 {
   max-width:950px;
   margin: 0 auto;
-  padding: 50px;
+  padding:60px 50px;
+
 
 }
 .Professional
@@ -99,10 +130,7 @@ a:hover
 {
   text-decoration: none;
 }
-header h2
-{
-  color: #EDF2F4;
-}
+
 footer{
   text-align: center;
 }
